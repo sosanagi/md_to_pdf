@@ -1,0 +1,50 @@
+.cover-title {
+  text-align: center;
+  font-size: 4em;
+}
+
+.subtitle {
+  margin-top: 3em;
+  font-size: 3em;
+  text-align: center;
+}
+
+.cover-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-top: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+  page-break-after: always;
+  text-align: center;
+  font-size: 2em;
+}
+.cover-innner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title-wrapper {
+  width: 100%;
+}
+.title-wrapper h1 {
+  font-size: 50px;
+}
+
+.create-at-wrapper {
+  font-weight: 500;
+}
+
+.company-name-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: auto;
+}
+
+.company-name-wrapper .compay-name {
+  font-weight: 600;
+}
